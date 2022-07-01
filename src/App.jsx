@@ -1,5 +1,6 @@
 import Button from './Button'
 import './App.css'
+import Lista from './Lista'
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
   "apt","bazaar", "chef", "cucumber", "debian", "game", "howto", "packaging", "testing",
   "boost", "debug","devise", "elixir", "gtk", "homebrew", "information", "ssh", "tuxtremsplit", "xpath"
   ]
-  const lista = palavras.map((c)=> 
-  <p className='caixa'>{c}</p>
+  const lista = palavras.map((p)=> 
+  <p className='caixa'>{p}</p>
   )
   
   return (
@@ -21,8 +22,10 @@ function App() {
   <div className='palavras'>
         {lista}
         <p></p>
-    </div>
-
+  </div>
+  <div className='Notícias'>
+      <Lista/>
+  </div>
   </div>
         )
   }
