@@ -41,3 +41,27 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+.palavras{
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.caixa{
+  padding: 15px;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-radius: 30px;
+  color: #c2c2c2;
+  display: flex;
+  margin: 5px;
+}
+.caixa:hover{
+  color:#4b889d;
+  border-color: #4b889d;
+}
